@@ -1,0 +1,3 @@
+<jboss-web>
+  <context-root>store</context-root>
+</jboss-web>
