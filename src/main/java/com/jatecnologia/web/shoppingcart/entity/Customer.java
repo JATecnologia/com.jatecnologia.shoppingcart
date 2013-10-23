@@ -13,8 +13,13 @@ import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name="cliente")
-public class Cliente implements Serializable{
+public class Customer implements Serializable{
 
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6409789086267383642L;
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)	
